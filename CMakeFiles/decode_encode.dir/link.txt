@@ -1,0 +1,1 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -D__STDC_CONSTANT_MACROS -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/decode_encode.dir/main_encoder.cpp.o  -o decode_encode /usr/local/lib/libavcodec.dylib /usr/local/lib/libavformat.dylib /usr/local/lib/libavutil.dylib /usr/local/lib/libavdevice.dylib 

@@ -1,0 +1,14 @@
+prefix=/Users/joshuaduong/build-ffmpeg/install-darwin-x86_64
+exec_prefix=${prefix}
+libdir=/Users/joshuaduong/build-ffmpeg/install-darwin-x86_64/lib
+includedir=/Users/joshuaduong/build-ffmpeg/install-darwin-x86_64/include
+
+Name: libavfilter
+Description: FFmpeg audio/video filtering library
+Version: 6.107.100
+Requires: libavresample >= 3.7.0, libswscale >= 4.8.100, libpostproc >= 54.7.100, libavformat >= 57.83.100, libavcodec >= 57.107.100, libswresample >= 2.9.100, libavutil >= 55.78.100
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavfilter -framework OpenGL -framework OpenGL -framework CoreFoundation -framework VideoToolbox -framework CoreMedia -framework CoreVideo -framework VideoDecodeAcceleration -Wl,-framework,CoreFoundation -Wl,-framework,Security -lx264 -lvpx -lvpx -lvpx -lvpx -lm -lbz2 -lz -pthread -pthread -framework CoreServices -framework CoreGraphics -framework VideoToolbox -framework CoreImage -framework AVFoundation -framework AudioToolbox -framework AppKit
+Libs.private: 
+Cflags: -I${includedir}

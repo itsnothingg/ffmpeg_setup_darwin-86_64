@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/mac/Development/study/transcoding/main_encoder.cpp
+stdio.h
+-
+libavcodec/avcodec.h
+-
+libavformat/avformat.h
+-
+
